@@ -4,8 +4,127 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Mesto</title>
+  <link rel="stylesheet" href="./pages/index.css">
 </head>
-<body>
-  
+<body class="page">
+  <div class="page__container">
+    <header class="header">
+      <img src="./images/logo.svg" alt="лого mesto russia" class="logo header__logo">
+      <div class="header__underline"></div>
+    </header>
+
+    <main class="main">
+      <section class="profile main__profile">
+        <img src="./images/avatar.jpg" alt="аватарка" class="profile__avatar">
+        <div class="profile__info">
+          <div class="profile__block">
+            <h1 class="profile__title">
+              Жак-Ив Кусто
+            </h1>
+            <button class="profile__edit-button">
+              <img src="./images/edit-button.svg" alt="кнопка изменить" class="profile__edit-button-image">
+            </button>
+          </div>
+          <p class="profile__subtitle">
+            Исследователь океана
+          </p>
+        </div>
+        <button class="profile__add-button">
+          <img src="./images/add-button.svg" alt="кнопка добавить" class="profile__add-button-image">
+        </button>
+      </section>
+      <section class="elements main__elements">
+        <ul class="elements__list">
+          <li class="elements__list-item">
+            <img src="./images/elements-karachaevsk.jpg" alt="карачаевск" class="elements__image">
+            <div class="elements__name-block">
+              <h2 class="elements__name">
+                Карачаевск
+              </h2>
+              <button class="elements__like-button">
+                <img src="./images/like-button.svg" alt="кнопка избранное" class="elements__like-button-image">
+              </button>
+            </div>
+          </li>
+          <li class="elements__list-item">
+            <img src="./images/elements-elbrus.jpg" alt="эльбрус" class="elements__image">
+            <div class="elements__name-block">
+              <h2 class="elements__name">
+                Эльбрус
+              </h2>
+              <button class="elements__like-button">
+                <img src="./images/like-button.svg" alt="кнопка избранное" class="elements__like-button-image">
+              </button>
+            </div>
+          </li>
+          <li class="elements__list-item">
+            <img src="./images/elements-dumbay.jpg" alt="дамбай" class="elements__image">
+            <div class="elements__name-block">
+              <h2 class="elements__name">
+                Дамбай
+              </h2>
+              <button class="elements__like-button">
+                <img src="./images/like-button.svg" alt="кнопка избранное" class="elements__like-button-image">
+              </button>
+            </div>
+          </li>
+          <li class="elements__list-item">
+            <img src="./images/elements-karachaevsk.jpg" alt="карачаевск" class="elements__image">
+            <div class="elements__name-block">
+              <h2 class="elements__name">
+                Карачаевск раоваовраоваовраовраовао
+              </h2>
+              <button class="elements__like-button">
+                <img src="./images/like-button.svg" alt="кнопка избранное" class="elements__like-button-image">
+              </button>
+            </div>
+          </li>
+          <li class="elements__list-item">
+            <img src="./images/elements-elbrus.jpg" alt="эльбрус" class="elements__image">
+            <div class="elements__name-block">
+              <h2 class="elements__name">
+                Эльбрус
+              </h2>
+              <button class="elements__like-button">
+                <img src="./images/like-button.svg" alt="кнопка избранное" class="elements__like-button-image">
+              </button>
+            </div>
+          </li>
+          <li class="elements__list-item">
+            <img src="./images/elements-dumbay.jpg" alt="дамбай" class="elements__image">
+            <div class="elements__name-block">
+              <h2 class="elements__name">
+                Дамбай
+              </h2>
+              <button class="elements__like-button">
+                <img src="./images/like-button.svg" alt="кнопка избранное" class="elements__like-button-image">
+              </button>
+            </div>
+          </li>
+
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer page__footer">
+      &copy; 2020 Mesto Russia
+    </footer>
+
+    <div class="edit-form">
+      <div class="edit-form__window">
+        <p class="edit-form__title">
+          Редактировать профиль
+        </p>
+        <button class="edit-form__exit-button">
+          <img src="./images/close-icon.svg" alt="иконка выхода из формы редактирования профиля" class="edit-form__exit-button-image">
+        </button>
+        <input type="text" placeholder="Заголовок" class="edit-form__profile-title">
+        <input type="text" placeholder="Подзаголовок" class="edit-form__profile-subtitle">
+        <button class="edit-form__submit-button">
+          Сохранить
+        </button>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
