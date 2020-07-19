@@ -8,6 +8,7 @@
     background-color: black;
     margin-left: auto;
     transition: opacity 0.5s linear;
+    padding: 0;
 }
 
 .profile__add-button:hover {
