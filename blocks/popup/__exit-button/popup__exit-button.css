@@ -6,6 +6,8 @@
     transition: opacity 0.5s linear;
     width: 52px;
     height: 52px;
+    border: 0;
+    background: transparent;
 }
 
 .popup__exit-button:hover {
