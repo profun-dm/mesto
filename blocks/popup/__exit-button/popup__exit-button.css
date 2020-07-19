@@ -1,0 +1,20 @@
+.popup__exit-button {
+    position: absolute;
+    top: -41px;
+    right: -41px;
+    padding: 0;
+    transition: opacity 0.5s linear;
+    width: 52px;
+    height: 52px;
+}
+
+.popup__exit-button:hover {
+    opacity: 0.6;
+}
+
+@media screen and (max-width: 768px){
+    .popup__exit-button {
+        right: -13px;
+        top: -47px;
+    }
+}
