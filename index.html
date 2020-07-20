@@ -10,7 +10,6 @@
   <div class="page__container">
     <header class="header">
       <img src="./images/logo.svg" alt="лого mesto russia" class="logo header__logo">
-      <div class="header__underline"></div>
     </header>
 
     <main class="main">
@@ -21,7 +20,7 @@
             <h1 class="profile__title">
               Жак-Ив Кусто
             </h1>
-            <button class="profile__edit-button">
+            <button class="profile__edit-button" type="button">
               <img src="./images/edit-button.svg" alt="кнопка изменить" class="profile__edit-button-image">
             </button>
           </div>
@@ -29,7 +28,7 @@
             Исследователь океана
           </p>
         </div>
-        <button class="profile__add-button">
+        <button class="profile__add-button" type="button">
           <img src="./images/add-button.svg" alt="кнопка добавить" class="profile__add-button-image">
         </button>
       </section>
@@ -41,7 +40,7 @@
               <h2 class="elements__name">
                 Карачаевск
               </h2>
-              <button class="elements__like-button">
+              <button class="elements__like-button" type="button">
                 <img src="./images/like-button.svg" alt="кнопка избранное" class="elements__like-button-image">
               </button>
             </div>
@@ -52,7 +51,7 @@
               <h2 class="elements__name">
                 Эльбрус
               </h2>
-              <button class="elements__like-button">
+              <button class="elements__like-button" type="button">
                 <img src="./images/like-button.svg" alt="кнопка избранное" class="elements__like-button-image">
               </button>
             </div>
@@ -63,7 +62,7 @@
               <h2 class="elements__name">
                 Дамбай
               </h2>
-              <button class="elements__like-button">
+              <button class="elements__like-button" type="button">
                 <img src="./images/like-button.svg" alt="кнопка избранное" class="elements__like-button-image">
               </button>
             </div>
@@ -74,7 +73,7 @@
               <h2 class="elements__name">
                 Карачаевск раоваовраоваовраовраовао
               </h2>
-              <button class="elements__like-button">
+              <button class="elements__like-button" type="button">
                 <img src="./images/like-button.svg" alt="кнопка избранное" class="elements__like-button-image">
               </button>
             </div>
@@ -85,7 +84,7 @@
               <h2 class="elements__name">
                 Эльбрус
               </h2>
-              <button class="elements__like-button">
+              <button class="elements__like-button" type="button">
                 <img src="./images/like-button.svg" alt="кнопка избранное" class="elements__like-button-image">
               </button>
             </div>
@@ -96,7 +95,7 @@
               <h2 class="elements__name">
                 Дамбай
               </h2>
-              <button class="elements__like-button">
+              <button class="elements__like-button" type="button">
                 <img src="./images/like-button.svg" alt="кнопка избранное" class="elements__like-button-image">
               </button>
             </div>
@@ -114,13 +113,13 @@
   </div>
   <div class="popup">
     <div class="popup__container">
-      <p class="popup__title">
+      <h3 class="popup__title">
         Редактировать профиль
-      </p>
-      <button class="popup__exit-button">
+      </h3>
+      <button class="popup__exit-button" type="reset">
         <img src="./images/close-icon.svg" alt="иконка выхода из формы редактирования профиля" class="popup__exit-button-image">
       </button>
-      <form action="#" class="popup__form">
+      <form action="#" name="edit-form" class="popup__form">
         <input type="text" placeholder="Имя" class="popup__profile-title">
         <input type="text" placeholder="О себе" class="popup__profile-subtitle">
         <button type="submit" class="popup__submit-button">
@@ -129,6 +128,6 @@
       </form>
     </div>
   </div>
-  <script src="./script.js"></script>
+  <script src="./scripts/index.js"></script>
 </body>
 </html>
